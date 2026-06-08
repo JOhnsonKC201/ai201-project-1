@@ -135,9 +135,11 @@ Grounding is enforced two ways:
 ## Query Interface
 
 A Gradio web app (`app.py`, opens at `http://localhost:7860`):
-- **Input:** one textbox, "Your question."
+- **Input:** one textbox, "Your question" (plus one-click example questions).
 - **Outputs:** "Answer" (the grounded response) and "Retrieved from" (the source files/professors the answer drew on).
 - Works with the Ask button or by pressing Enter.
+
+![The Unofficial Guide interface](screenshot.png)
 
 **Sample interaction:**
 ```
